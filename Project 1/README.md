@@ -22,7 +22,7 @@ Xor gate built using combination of Not, And, Or Gate.
 ![Xor Gate ciruit diagram](Circuit%20Diagrams/xor.png)
 
 ## Or 8 Way
-Or gate built using combination of Not, And, Or Gate.
+Or gate built using combination of 7 Or Gate.
 
 ![Or 8 Way  ciruit diagram](Circuit%20Diagrams/or8.png)
 
