@@ -2,6 +2,12 @@
 HDL Code for Some of the fundamental chips required for hardware design of HACK Computer. Main objective to build HACK ALU in this section.
 Circuit Diagrams for each chip is given below.
 
+
+## HACK ALU
+HACK ALU will be Arithmetic Logic Unit of HACK Computer, it can perform Addition, Subtraction, Bitwise And, Bitwise Or, Negation, Zero, etc.
+
+![Hack ALU  ciruit diagram](Circuit%20Diagrams/hackALU.png)
+
 ## Half Adder 1bit
 Half adder is built using combination of Xor and And gates.
 
@@ -23,10 +29,6 @@ inc16 is a chip to increament value by 1.
 
 ![inc16 ciruit diagram](Circuit%20Diagrams/add16.png)
 
-## HACK ALU
-HACK ALU will be Arithmetic Logic Unit of HACK Computer, it can perform Addition, Subtraction, Bitwise And, Bitwise Or, Negation, Zero, etc.
-
-![Or 8 Way  ciruit diagram](Circuit%20Diagrams/hackALU.png)
 
 
 
