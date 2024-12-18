@@ -25,22 +25,22 @@ RAM unit build with 8 registers. Size of address bit is determined using log<sub
 ![Ram8 ciruit diagram](Circuit%20Diagrams/ram8.png)
 
 ## RAM64
-RAM unit build with 8 RAM8 units. contains 64 registers in total.
+RAM unit build with 8 RAM8 units. contains 64 registers in total. Sub bus for RAM8 is address[0..2] and Mux and Dmux is address[3..5].
 
 ![Ram64 ciruit diagram](Circuit%20Diagrams/ram64.png)
 
 ## RAM512
-RAM unit build with 8 RAM64 units. contains 512 registers in total.
+RAM unit build with 8 RAM64 units. contains 512 registers in total. Sub bus for RAM8 is address[0..5] and Mux and Dmux is address[6..8]
 
 ![Ram512 ciruit diagram](Circuit%20Diagrams/ram512.png)
 
 ## RAM4K
-RAM unit build with 8 RAM512 units. contains 4096 registers in total.
+RAM unit build with 8 RAM512 units. contains 4096 registers in total. Sub bus for RAM8 address[0..8] and Mux and Dmux is address[9..11]
 
 ![Ram4k ciruit diagram](Circuit%20Diagrams/ram4k.png)
 
 ## RAM16K
-RAM unit build with 4 RAM4K units. contains 16384 registers in total.
+RAM unit build with 4 RAM4K units. contains 16384 registers in total. Sub bus for RAM8 address[0..11] and Mux and Dmux is address[12..13]
 
 ![Ram16k ciruit diagram](Circuit%20Diagrams/ram16k.png)
 
